@@ -131,7 +131,6 @@ public class SimulationConsole {
             System.out.println("Error during simulation: " + e.getMessage()); // Обработка ошибок
             logger.error("Critical error during simulation: {}", e.getMessage());
         } finally {
-            System.out.println("Simulation fully stopped.");
             logger.info("Simulation fully stopped.");
         }
     }
